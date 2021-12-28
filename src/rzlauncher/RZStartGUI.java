@@ -1,5 +1,7 @@
 package rzlauncher;
 
+import javax.swing.*;
+
 import static rzlauncher.RZObjectDeclarations.*;
 
 public class RZStartGUI {
@@ -58,5 +60,7 @@ public class RZStartGUI {
         rzDoomJFrame.setSize(695, 170);
         rzDoomJFrame.setLayout(null);
         rzDoomJFrame.setVisible(true);
+
+        rzDoomJFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
