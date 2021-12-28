@@ -61,6 +61,6 @@ public class RZStartGUI {
         rzDoomJFrame.setLayout(null);
         rzDoomJFrame.setVisible(true);
 
-        rzDoomJFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        rzDoomJFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
 }
